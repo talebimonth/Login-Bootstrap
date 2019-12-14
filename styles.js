@@ -30,8 +30,7 @@ function handleInputField (event) {
     }
 }
 
-if (validate) {
+
     for (let i = 0; i < inputs.length; i++) {
         inputs[i].addEventListener('input', handleInputField);
     }
-}
